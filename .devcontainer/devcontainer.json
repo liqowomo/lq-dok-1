@@ -1,0 +1,5 @@
+{
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:jammy",
+  "features": {},
+  "postCreateCommand": "chmod +x .devcontainer/setup.sh && .devcontainer/setup.sh"
+}
